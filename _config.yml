@@ -8,8 +8,8 @@ logo_url: /assets/logo/imswarnil.png
 email: your-email@domain.com
 description: >
    Clean, Simple, Minimalistic & Multipurpose Theme Made Using Bulma For Jekyll
-baseurl: ""
-url: "https://jekyll.imswarnil.com"
+baseurl: "/test"
+url: ""
 permalink: pretty
 #favicon: /path/to/favicon.png
 gh_sponsor: chrisrhymes
