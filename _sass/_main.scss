@@ -1,5 +1,7 @@
 
 // Import Bulma
+@import "../node_modules/bulma/sass/index";
+@import "theme/index";
 
 // Import custom Bulma extensions
 @import "../_sass/extensions/switch";

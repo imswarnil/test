@@ -4,6 +4,8 @@ navbar:
     icon: fa-house-user
   - name: About 
     link: /about/
+  - name: Elements 
+    link: /elements
     icon: fa-address-card
   - name: Blog
     link: /blog/

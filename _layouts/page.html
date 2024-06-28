@@ -1,10 +1,17 @@
 ---
 layout: default
 ---
-{% if page.toc %}
-    {% assign contentsTitle = page.toc_title | default: 'Contents' %}
-    {% include toc.html html=content class='menu-list' h_min=2 h_max=3 contents_title=contentsTitle %}
-{% endif %}
-<div class="content">
-    {{ content }}
-</div>
+<main class="main section">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-8">
+        <article class="article content animated intensifies">
+          <h1 class="title animated intensifies">{{ page.title }}</h1>
+          {{ content }}
+        </article>
+      </div>
+      
+    </div>
+  </div>
+</main>
+
